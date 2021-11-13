@@ -1,1 +1,4 @@
 .directory
+note
+dnote
+*.sqlite

@@ -3,7 +3,7 @@ import pygtk, gtk, wx
 import sqlite3 as sqlite
 pygtk.require('2.0')
 
-DB = 'pygmynote.sqlite'
+DB = 'dnote.sqlite'
 
 conn = sqlite.connect(DB)
 cursor = conn.cursor()
